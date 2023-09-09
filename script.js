@@ -3,5 +3,5 @@ const d = new Date();
 let day = days[d.getUTCDay()];
 document.getElementById('day').innerHTML = day;
 
-const b = new Date();
+const b = Date.now();
 document.getElementById('time').innerHTML = b.toUTCString();
