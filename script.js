@@ -4,4 +4,4 @@ let day = days[d.getUTCDay()];
 document.getElementById('day').innerHTML = day;
 
 const b = Date.now();
-document.getElementById('time').innerHTML = b.toUTCString();
+document.getElementById('time').innerHTML = b;
